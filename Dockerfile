@@ -8,7 +8,7 @@ RUN apk update && \
         g++ \
         make \
         && \
-    wget --no-check-certificate https://codeload.github.com/gpac/gpac/zip/master -O gpac-master.zip && \
+    wget --no-check-certificate https://github.com/MarcAntoine-Arnaud/gpac/archive/master.zip -O gpac-master.zip && \
     unzip gpac-master.zip
 
 WORKDIR gpac-master
